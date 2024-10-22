@@ -1,5 +1,5 @@
 # --- Unity generated files ---
-[Ll]ibrary/
+/[Ll]ibrary/
 [Tt]emp/
 [Oo]bj/
 [Bb]uild/
@@ -22,21 +22,10 @@
 # --- Visual Studio/IDE ---
 .vscode/
 .idea/
-*.csproj
-*.unityproj
-*.sln
-*.suo
-*.tmp
-*.user
-*.userprefs
-*.pidb
-*.booproj
-*.svd
-*.pdb
-*.opendb
-*.VC.db
-*.VC.VC.opendb
 .vs/
+.gradle/
+ExportedObj/
+.consulo/
 
 # --- Textures ---
 *.tga
@@ -46,12 +35,9 @@
 *.dds
 
 # --- Oculus generated files ---
-# Oculus-specific generated files
 Assets/Oculus/VR/Editor/.project.lock.json
 Assets/Oculus/VR/Editor/OculusUtilitiesVersion.json
 Assets/Oculus/VR/Editor/OculusUtilitiesInfo.json
-
-# Oculus SDK
 Assets/Oculus/VR/Resources/ovrlib.res
 
 # --- Build files ---
@@ -75,7 +61,6 @@ Desktop.ini
 # --- Android ---
 *.apk
 *.aab
-.gradle/
 *.keystore
 *.jks
 
@@ -89,5 +74,13 @@ Obj/**/*.meta
 Build/**/*.meta
 Builds/**/*.meta
 
-# --- Exclude generated Visual Studio file for Android builds ---
-.vs/GeneratedAndroid/
+# --- Unity3D generated meta files ---
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# --- Crashlytics generated file ---
+crashlytics-build.properties
+
+# --- Packed Addressables ---
+/[Aa]ssets/[Aa]ddressabl
