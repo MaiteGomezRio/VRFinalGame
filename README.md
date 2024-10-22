@@ -35,8 +35,6 @@
 - **Oculus SDK:** Herramientas de desarrollo para Oculus Quest 2.
 - **C#:** Lenguaje de programación utilizado para la lógica del juego.
 
-## Contribuciones
 
-Si deseas contribuir al desarrollo del juego, por favor sigue las pautas en el archivo `CONTRIBUTING.md`.
 
 
