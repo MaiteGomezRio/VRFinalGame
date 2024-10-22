@@ -1,0 +1,93 @@
+# --- Unity generated files ---
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+[Ss]ysCache/
+
+# Exclude project settings which are user specific
+[Uu]ser[Ss]ettings/
+
+# Mono auto generated files
+[Mm]ono[Cc]ache/
+
+# --- Audio files ---
+*.wav
+*.mp3
+*.ogg
+
+# --- Visual Studio/IDE ---
+.vscode/
+.idea/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.opendb
+*.VC.db
+*.VC.VC.opendb
+.vs/
+
+# --- Textures ---
+*.tga
+*.psd
+*.exr
+*.hdr
+*.dds
+
+# --- Oculus generated files ---
+# Oculus-specific generated files
+Assets/Oculus/VR/Editor/.project.lock.json
+Assets/Oculus/VR/Editor/OculusUtilitiesVersion.json
+Assets/Oculus/VR/Editor/OculusUtilitiesInfo.json
+
+# Oculus SDK
+Assets/Oculus/VR/Resources/ovrlib.res
+
+# --- Build files ---
+*.apk
+*.aab
+
+# --- Unity Asset Store Tools ---
+/Assets/AssetStoreTools*
+
+# --- Logs and crash reports ---
+*.stacktrace
+
+# --- Mac OS generated files ---
+.DS_Store
+._*
+
+# --- Windows generated files ---
+Thumbs.db
+Desktop.ini
+
+# --- Android ---
+*.apk
+*.aab
+.gradle/
+*.keystore
+*.jks
+
+# --- Unity Cloud Build ---
+/[Uu]ser[Ss]ettings/CloudBuildManifest.json
+
+# --- Exclude meta files for excluded directories ---
+Library/**/*.meta
+Temp/**/*.meta
+Obj/**/*.meta
+Build/**/*.meta
+Builds/**/*.meta
+
+# --- Exclude generated Visual Studio file for Android builds ---
+.vs/GeneratedAndroid/
